@@ -1,0 +1,163 @@
+.navbar{
+	background-color:#808080;
+}
+.navbar-brand 
+{
+     text-align: left;
+     color:black;
+     font-size: 2.5em;
+     text-transform: uppercase;
+     font-weight: bold;
+     text-shadow: 1px 1px 1px #222;
+     margin-top: 0;
+     margin-bottom: 0;
+     margin-left: 0;
+     line-height: .75;
+
+}
+.navbar-brand a{
+	text-decoration: none;
+}
+.navbar-toggler{
+	background-color: #505050;
+	border:1px solid white;
+}
+.navbar-toggler-icon
+{
+	background-color: #505050;
+	border:1px solid white;
+}
+nav div{
+	border:2px solid black;
+}
+ nav div a {
+	color:black;
+	background-color: white;
+	text-align: center;
+	font-weight:bold;
+	border-bottom: 2px solid black;
+}
+nav div:nth-child(3){
+	border-bottom: 0;
+}
+h2{
+	text-align: center;
+	font-weight: bold;
+	margin-top: 15px;
+	margin-bottom: 25px;
+}
+*{
+	box-sizing: border-box;
+}
+.row{
+		width: 100%;
+		margin-left: auto;
+		margin-right: auto;
+	}
+.row div
+		{
+			width: 90%;
+			height: 270px;
+			 margin-right: auto;
+             margin-left: auto;
+              overflow: scroll;
+             
+            
+		}
+		#alpha{
+			background-color: #808080;
+			
+		}
+		#beta {
+			
+			background-color: #808080;
+			
+		}
+		
+		#gama {
+			
+			background-color: #808080;
+			
+		}
+.row h5{
+	color:black;
+	text-align: center;
+	font-weight: bold;
+	margin-top: 7px;
+	margin-bottom: 15px;
+    
+}
+.row p
+		{
+			
+			text-align: left;
+			font-size: 15px;
+			border:2px solid black;
+            margin: auto;
+            font-family: Arial,Helvetico,Sens-Serif;
+            font-weight: bold;
+
+		}
+#nik a:hover{
+	color:red;
+	margin-bottom: 0;
+
+}
+
+@media screen and (min-width:992px)
+{
+	button,div.collapse{
+		display: none;
+	}
+}
+@media screen and (min-width:768px) and (max-width: 991px)
+{
+	button,div.collapse{
+		display: none;
+	}
+}
+
+	@media(min-width: 992px)
+	{
+		.col-lg-4
+		{
+			float:left;
+			clear: left;
+            border:2px solid black;
+            width:30%;
+            font-size: 33%;
+            margin-bottom: 15px;
+
+            }
+
+       		
+			
+	}
+	@media(min-width:768px) and (max-width:991px)
+	{
+        .col-md-6
+        {
+            float:left;
+           border:2px solid black;
+           margin-right: 15px;
+           margin-bottom: 15px;
+           width:50%; 
+           font-size:50%;
+          
+           }	
+	}
+	@media(max-width: 767px)
+	{
+	   .col-sm-12
+        {
+        	border: 2px solid black;
+        	margin-bottom: 10px;
+           width:95%; 
+           font-size: 95%;
+           margin-left: auto;
+           margin-right: auto;  
+           margin-bottom: 20px;
+           
+         
+        } 		
+	}
